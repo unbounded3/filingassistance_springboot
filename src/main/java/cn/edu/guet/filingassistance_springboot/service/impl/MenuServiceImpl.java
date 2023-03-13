@@ -49,8 +49,6 @@ public class MenuServiceImpl implements MenuService {
                     // 如果是获取类型不需要按钮，且菜单类型是按钮的，直接过滤掉
                     continue;
                 }
-                System.out.println("菜单的ID："+SysMenu.getId());
-                System.out.println("菜单的父ID："+menu.getParentId());
 
                 if (SysMenu.getId() != null && SysMenu.getId().equals(menu.getParentId())) {
                     menu.setParentName(SysMenu.getName());

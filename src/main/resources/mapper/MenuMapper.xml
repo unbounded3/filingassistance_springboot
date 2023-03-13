@@ -4,7 +4,7 @@
     <resultMap id="BaseResultMap" type="cn.edu.guet.filingassistance_springboot.bean.Menu">
         <id column="id" jdbcType="VARCHAR" property="id"/>
         <result column="name" jdbcType="VARCHAR" property="name"/>
-        <result column="parent_id" jdbcType="BIGINT" property="parentId"/>
+        <result column="parent_id" jdbcType="VARCHAR" property="parentId"/>
         <result column="url" jdbcType="VARCHAR" property="url"/>
         <result column="perms" jdbcType="VARCHAR" property="perms"/>
         <result column="type" jdbcType="INTEGER" property="type"/>
